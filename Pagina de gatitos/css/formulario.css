@@ -1,0 +1,92 @@
+html{
+    overflow-x:hidden;
+    
+    
+
+    
+}
+.container-form{
+    display: grid;
+    grid-template-columns: 239px 336px ;
+    height: 100vw;
+    justify-content: center;
+    grid-gap: 5%;
+    height: auto;
+    margin: 13% 0 ;
+    
+}
+
+.product-form{
+    padding: 15px;
+    border:1px solid white;
+    border-radius: 2px;
+    box-shadow:0px 3px 6px #c1bcbc;
+    
+    }
+.product-image-form img{
+    
+    margin-top: 5px;
+    width: 134px;
+    height: 134px;
+}
+div.product-image-form{
+    display:flex;
+    justify-content: center;
+}
+div.product-form{
+    max-height:250px ;
+}
+.formulario {
+    
+    padding: 15px;
+    border:1px solid white;
+    border-radius: 2px;
+    box-shadow:0px 3px 6px #c1bcbc;
+}
+.formulario button {
+    border-bottom-style: none;
+    color: white;
+    font-weight: bold;
+    outline:none;
+    background: #7ACC2D 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+    width: 100%;
+    margin-top: 15px;
+}
+.formulario button p{
+    font-size: 15px;
+}
+.formulario label{
+    font-size: 12px;
+}
+.formulario{
+    font-size: 12px;
+}
+.formulario input{
+    border: 1px solid #313337;
+    border-radius: 1px;
+    opacity: 1;
+    width: 100%;
+}
+input.email, .name, .telefono {
+    padding: 10px 0;
+   
+    outline: none;
+}
+.footer{
+    position: relative;
+    bottom: 0;
+   margin-bottom: 0;
+}
+@media (max-width:600px){
+
+    .container-form{
+        grid-template-columns: 0.6fr;
+    }
+
+
+
+
+
+}

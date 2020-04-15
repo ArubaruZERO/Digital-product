@@ -1,0 +1,32 @@
+@media (max-width:600px){
+   .products{
+       display: inherit;
+       height: auto;
+       
+   }
+   .products .content{
+       margin-top: 35%;
+    }
+
+     .gifs-section{
+        display: inherit;
+        text-align: center;
+    }
+    .mentions{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .item-mention{
+        margin: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
